@@ -1012,3 +1012,9 @@ body.modal-open {
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
+
+iframe {
+    width: -webkit-fill-available;
+    height: 500px;
+    margin-top: 1em;
+}
