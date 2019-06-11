@@ -25,21 +25,21 @@
 
 <body> 
     <main id="login">
-        <header>
-            <div class="main-nav">
-                <div class="container">
-                    <div class="w-100 d-flex align-items-center justify-content-between">
-                        <div class="logo-jobdelas col-md-2 col-lg-2 col-sm-6">
-                            <img src="images/logo-jobdelas-8.png" class="img-fluid logo">
+            <header>
+                    <div class="main-nav">
+                        <div class="container">
+                            <div class="w-100 d-flex align-items-center justify-content-between">
+                                <div class="logo-jobdelas col-md-2 col-lg-2 col-sm-6">
+                                    <img src="images/logo-jobdelas-8.png" class="img-fluid logo">
+                                </div>
+                                <div class="login-cadastro-section col-md-4 col-lg-4"> 
+                                    <a href="/login.html" class="btn button sign-in-btn purple-color">Entrar</a>
+                                    <a href="" class="btn button register-btn" data-toggle="modal" data-target="#modalExemplo">Cadastre-se</a>
+                                </div> 
+                            </div>
                         </div>
-                        <div class="login-cadastro-section col-md-4 col-lg-4"> 
-                            <a href="" class="btn button sign-in-btn purple-color">Entrar</a>
-                            <a href="" class="btn button register-btn">Cadastre-se</a>
-                        </div> 
                     </div>
-                </div>
-            </div>
-        </header> 
+                </header> 
         <section id="autentication-section">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -78,6 +78,49 @@
             </div>
         </section>
     </main> 
+
+    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog col-md-6 col-sm-12 col-lg-6" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                        <h4 class="purple-color small-title" id="user-name">Identifique o seu gênero abaixo antes de se cadastrar!</h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body mt-4 d-flex align-items-center justify-content-center">
+                    <button class="btn button white-bg blue-color shadow-box m-0 mr-3">
+                        <a href="#" class="white-color primary-link light-weight nao-permitido">Sou homem!</a>
+                    </button>
+                    <button class="btn button white-bg blue-color shadow-box m-0 purple-bg">
+                        <a href="/cadastro.html" class="blue-color primary-link light-weight">Sou mulher!</a>
+                    </button>
+                </div> 
+                <p class="text-center nao-permitido-text fade-in">Desculpe, mas só aceitamos mulheres em nossa plataforma, <br>por questões de segurança e dos nossos ideais de visibilidade feminina no mercado de trabalho!
+                    <button type="button" class="close close-btn-text" data-dismiss="modal" aria-label="Fechar">
+                       Voltar
+                    </button>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <section style="background-color:#ededed" id="rodape">
+                <div class="container">
+                    <p class="gray-color text-center py-4 small">
+                    CLÁUSULA DE RESERVA (Lei 9.610/98 - LEI DE DIREITOS AUTORAIS): Esta plataforma
+                    foi publicada e é mantida pelos discentes do 5º semestre, do Curso de Graduação em
+                    Design Digital, da Universidade Anhembi Morumbi, visando a atender às exigências da
+                    disciplina PROJETO INTERDISCIPLINAR: CIBERATIVISMO. Trata-se de uma publicação
+                    temporária para propósitos estritamente acadêmicos e sem fins lucrativos. Em atendimento
+                    às exigências da Lei 9.610/98, do parágrafo 4°, do Artigo 184, do Código Penal, os discentes
+                    responsáveis por esta publicação colocam-se à disposição, por intermédio do e-mail
+                    jobdelas.projetointer@gmail.com, para dirimir quaisquer dúvidas referentes à eventual violação de direitos
+                    autorais, comprometendo-se desde já, a retirar do ar, qualquer texto, som ou imagem
+                    pertencente a autor ou titular que se sinta direta ou indiretamente prejudicado.
+                    </p>
+                </div>
+            </section> 
 </body> 
 <!-- JS -->
 <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>

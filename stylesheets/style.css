@@ -86,7 +86,7 @@ select {
     font-weight: 500
 }
 
-/* navegaÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o */
+/* navegaÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£o */
 .logo-jobdelas {
     padding-left: 0;
 }
@@ -665,6 +665,7 @@ body.modal-open {
     background-repeat: no-repeat;
     background-position: 11% 90%;
     padding-top: 5em !important;
+    min-height: 80vh;
 }
 
 .left-side {
@@ -682,6 +683,8 @@ body.modal-open {
     box-shadow: 2px 0 32px 5px hsla(0, 0%, 70%, 15%);
     padding-top: 3em;
     padding-bottom: 2em;
+    position: relative;
+    top: 10em;
 }
 
 .input-section {
@@ -790,4 +793,61 @@ body.modal-open {
     letter-spacing: 1px;
     font-weight: 400;
     margin-top: 1em;
+}
+
+/* modal-cadastro */
+
+.modal.fade.in {
+    opacity: 1;
+    background: #06035638;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-dialog{
+    z-index: 99999;
+    position: relative;
+    max-width: -webkit-fill-available;
+    border: none;
+}
+
+.modal-content {
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 0 20px #0000001a;
+    border: none;
+    min-height: 280px;
+}
+
+.purple-bg {
+    background: #4f49e2;
+}
+
+.purple-bg a {
+    color: #fff;
+}
+
+.nao-permitido-text {
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #dc354538;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    display:none;
+}
+
+.nao-permitido-text.active {
+    display: block;
+}
+
+.close.close-btn-text {
+    width: 100%;
+    font-size: 14px;
+    padding-top: 1em;
+    color: #dc3545;
+    text-decoration: underline;
 }

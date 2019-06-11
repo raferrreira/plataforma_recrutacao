@@ -3,6 +3,17 @@
 $(".profile-tab a").click(function(){
 	$(".profile-tab ul").toggle();
 })
+
+// confirmacao genero
+
+$(".nao-permitido").click(function(){
+	$(".nao-permitido-text").addClass("active");
+})
+
+$(".close-btn-text").click(function(){
+	$(".nao-permitido-text").removeClass("active");
+})
+ 
  
 
 // modal abrir e fechar
