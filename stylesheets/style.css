@@ -82,6 +82,10 @@ select {
     font-weight: 300;
 }
 
+.semi-bold-weight{
+    font-weight: 500
+}
+
 /* navegaÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o */
 .logo-jobdelas {
     padding-left: 0;
@@ -778,4 +782,12 @@ body.modal-open {
     background: #ededed;
     margin-bottom: 5em;
     margin-top: 2em;
+}
+
+.info-master-section .button {
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 1em;
 }
