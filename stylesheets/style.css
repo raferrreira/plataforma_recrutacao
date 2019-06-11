@@ -759,3 +759,23 @@ body.modal-open {
     font-size: 14px;
     width: 100%;
 }
+
+/* Landing page */
+
+.info-master-section .row {
+    position: relative;
+    justify-content: flex-end;
+}
+
+.info-master-section .row .img-mulher-notebook {
+    position: absolute;
+    left: 0;
+}
+
+.info-master-section {
+    padding-top: 5em;
+    padding-bottom: 6em;
+    background: #ededed;
+    margin-bottom: 5em;
+    margin-top: 2em;
+}
